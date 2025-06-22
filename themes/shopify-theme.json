@@ -23,8 +23,8 @@
     "titleBar.inactiveBackground": "#364669",
     "menubar.selectionBackground": "#364669",
     "menu.background": "#364669",
-    "dropdown.background": "#20292B",
-    "input.background": "#20292B",
+    "dropdown.background": "#303F5F",
+    "input.background": "#303F5F",
     "input.foreground": "#95A7D5",
     "input.border": "#5870A4",
     "inputOption.activeBorder": "#5870A4",
@@ -32,7 +32,7 @@
     "button.border": "#5870A4",
     "dropdown.border": "#5870A4",
     "list.focusOutline": "#5870A4",
-    "editorWidget.border": "#20292B",
+    "editorWidget.border": "#303F5F",
     "tab.activeBackground": "#364669",
     "tab.activeBorder": "#00000000",
     "tab.activeBorderTop": "#9DB8F7",
@@ -53,13 +53,13 @@
     "editorHoverWidget.border": "#5870A4",
     "editorSuggestWidget.background": "#2D3748",
     "editorSuggestWidget.border": "#5870A4",
-    "list.hoverBackground": "#20292B",
-    "list.activeSelectionBackground": "#20292B",
-    "list.inactiveSelectionBackground": "#20292B",
-    "quickInput.background": "#20292B",
+    "list.hoverBackground": "#303F5F",
+    "list.activeSelectionBackground": "#303F5F",
+    "list.inactiveSelectionBackground": "#303F5F",
+    "quickInput.background": "#303F5F",
     "quickInput.foreground": "#95A7D5",
-    "quickInputTitle.background": "#20292B",
-    "quickInputList.focusBackground": "#20292B",
+    "quickInputTitle.background": "#303F5F",
+    "quickInputList.focusBackground": "#303F5F",
     "quickInputList.focusForeground": "#FFF",
     "panel.border": "#1A273F",
     "sideBar.border": "#1A273F",
@@ -79,7 +79,7 @@
     "scrollbarSlider.activeBackground": "#9DB8F7",
     "editor.findMatchBackground": "#5870A4",
     "editor.findMatchBorder": "#9DB8F7",
-    "editor.findMatchHighlightBackground": "#20292B",
+    "editor.findMatchHighlightBackground": "#303F5F",
     "editor.findMatchHighlightBorder": "#5870A4",
     "editor.findRangeHighlightBackground": "#1A273F",
     "searchEditor.findMatchBackground": "#5870A4",
@@ -97,10 +97,10 @@
     "notification.warningForeground": "#F3F972",
     "notification.errorBackground": "#364669",
     "notification.errorForeground": "#FE9F9B",
-    "editorWidget.background": "#20292B",
+    "editorWidget.background": "#303F5F",
     "editorWidget.foreground": "#95A7D5",
     "editorWidget.resizeBorder": "#5870A4",
-    "pickerGroup.border": "#20292B",
+    "pickerGroup.border": "#303F5F",
     "pickerGroup.foreground": "#9DB8F7"
   },
   "tokenColors": [
@@ -231,7 +231,7 @@
         "entity.name.function.liquid"
       ],
       "settings": {
-        "foreground": "#A4DFFD"
+        "foreground": "#9DB8F7"
       }
     },
     {
