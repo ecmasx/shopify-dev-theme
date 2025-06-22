@@ -34,7 +34,7 @@
     "editorWidget.border": "#8F5DA5",
     "tab.activeBackground": "#25152D",
     "tab.activeBorder": "#00000000",
-    "tab.activeBorderTop": "#00000000",
+    "tab.activeBorderTop": "#8F5DA5",
     "tab.inactiveBackground": "#25152D",
     "tab.hoverBackground": "#25152D",
     "tab.hoverBorder": "#00000000",
@@ -83,7 +83,19 @@
     "editor.findRangeHighlightBackground": "#25152D",
     "searchEditor.findMatchBackground": "#8F5DA5",
     "searchEditor.findMatchBorder": "#D793BB",
-    "searchEditor.textInputBorder": "#8F5DA5"
+    "searchEditor.textInputBorder": "#8F5DA5",
+    "notification.background": "#462B52",
+    "notification.foreground": "#D793BB",
+    "notification.border": "#8F5DA5",
+    "notification.buttonBackground": "#25152D",
+    "notification.buttonForeground": "#D793BB",
+    "notification.buttonBorder": "#8F5DA5",
+    "notification.infoBackground": "#462B52",
+    "notification.infoForeground": "#A4DFFD",
+    "notification.warningBackground": "#462B52",
+    "notification.warningForeground": "#BE7782",
+    "notification.errorBackground": "#462B52",
+    "notification.errorForeground": "#BE7782"
   },
   "tokenColors": [
     {

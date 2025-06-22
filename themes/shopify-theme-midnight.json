@@ -34,7 +34,7 @@
     "editorWidget.border": "#59767A",
     "tab.activeBackground": "#151D1E",
     "tab.activeBorder": "#00000000",
-    "tab.activeBorderTop": "#00000000",
+    "tab.activeBorderTop": "#4A9B8E",
     "tab.inactiveBackground": "#151D1E",
     "tab.hoverBackground": "#151D1E",
     "tab.hoverBorder": "#00000000",
@@ -83,7 +83,19 @@
     "editor.findRangeHighlightBackground": "#20292B",
     "searchEditor.findMatchBackground": "#4A9B8E",
     "searchEditor.findMatchBorder": "#59767A",
-    "searchEditor.textInputBorder": "#59767A"
+    "searchEditor.textInputBorder": "#59767A",
+    "notification.background": "#304B4F",
+    "notification.foreground": "#8A8F93",
+    "notification.border": "#59767A",
+    "notification.buttonBackground": "#20292B",
+    "notification.buttonForeground": "#8A8F93",
+    "notification.buttonBorder": "#59767A",
+    "notification.infoBackground": "#304B4F",
+    "notification.infoForeground": "#A4DFFD",
+    "notification.warningBackground": "#304B4F",
+    "notification.warningForeground": "#FE9F9B",
+    "notification.errorBackground": "#304B4F",
+    "notification.errorForeground": "#FE9F9B"
   },
   "tokenColors": [
     {
@@ -136,6 +148,17 @@
       ],
       "settings": {
         "foreground": "#8A8F93"
+      }
+    },
+    {
+      "name": "HTML Classes",
+      "scope": [
+        "entity.other.attribute-name.class.html",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class"
+      ],
+      "settings": {
+        "foreground": "#FFD602"
       }
     },
     {
@@ -229,10 +252,7 @@
     },
     {
       "name": "Liquid Objects",
-      "scope": [
-        "support.variable.liquid",
-        "variable.other.liquid"
-      ],
+      "scope": ["support.variable.liquid", "variable.other.liquid"],
       "settings": {
         "foreground": "#08F4B9"
       }
@@ -261,10 +281,7 @@
     },
     {
       "name": "Numbers",
-      "scope": [
-        "constant.numeric.liquid",
-        "constant.numeric"
-      ],
+      "scope": ["constant.numeric.liquid", "constant.numeric"],
       "settings": {
         "foreground": "#79A7FF"
       }
@@ -295,11 +312,7 @@
     },
     {
       "name": "Classes & Types",
-      "scope": [
-        "entity.name.class",
-        "entity.name.type",
-        "support.type"
-      ],
+      "scope": ["entity.name.class", "entity.name.type", "support.type"],
       "settings": {
         "foreground": "#6BB6A8"
       }
