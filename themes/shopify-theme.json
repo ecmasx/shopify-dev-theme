@@ -100,7 +100,7 @@
     "editorWidget.background": "#303F5F",
     "editorWidget.foreground": "#95A7D5",
     "editorWidget.resizeBorder": "#5870A4",
-    "pickerGroup.border": "#5870A4",
+    "pickerGroup.border": "#303F5F",
     "pickerGroup.foreground": "#9DB8F7"
   },
   "tokenColors": [

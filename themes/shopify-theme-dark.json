@@ -54,7 +54,7 @@
     "editorSuggestWidget.border": "#5870A4",
     "list.hoverBackground": "#283551",
     "list.activeSelectionBackground": "#283551",
-    "list.inactiveSelectionBackground": "#0B101F",
+    "list.inactiveSelectionBackground": "#283551",
     "quickInput.background": "#0B101F",
     "quickInput.foreground": "#95A7D5",
     "quickInputTitle.background": "#0B101F",

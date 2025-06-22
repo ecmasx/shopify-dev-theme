@@ -6,8 +6,8 @@
     "editor.foreground": "#8A8F93",
     "editor.lineHighlightBackground": "#0A1D26",
     "editor.lineHighlightBorder": "#0A1D26",
-    "editorLineNumber.foreground": "#20292B",
-    "editorLineNumber.activeForeground": "#20292B",
+    "editorLineNumber.foreground": "#66898F",
+    "editorLineNumber.activeForeground": "#8A8F93",
     "sideBar.background": "#304B4F",
     "sideBarSectionHeader.background": "#304B4F",
     "activityBar.background": "#304B4F",
@@ -54,7 +54,7 @@
     "editorSuggestWidget.border": "#59767A",
     "list.hoverBackground": "#151D1E",
     "list.activeSelectionBackground": "#0A1D26",
-    "list.inactiveSelectionBackground": "#151D1E",
+    "list.inactiveSelectionBackground": "#20292B",
     "quickInput.background": "#151D1E",
     "quickInput.foreground": "#8A8F93",
     "quickInputList.focusBackground": "#20292B",
@@ -138,7 +138,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#EFF1F1"
+        "foreground": "#D793BB"
       }
     },
     {
