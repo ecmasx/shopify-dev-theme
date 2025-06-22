@@ -3,7 +3,9 @@
   "displayName": "Shopify Dev Theme",
   "description": "A Shopify-inspired dark theme that replicates the clean, modern design aesthetic of shopify.dev. Perfect for developers who love the Shopify design language.",
   "publisher": "ecmasx",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "license": "MIT",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.101.0"
   },

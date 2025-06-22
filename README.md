@@ -1,16 +1,108 @@
-# shopify-dev-theme README
+# Shopify Dev Theme
 
-## Working with Markdown
+A Shopify-inspired dark theme that replicates the clean, modern design aesthetic of shopify.dev. Perfect for developers who love the Shopify design language and want to bring that elegant, professional look to their coding environment.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## 🎨 Features
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- **Two Beautiful Variants**: Choose between the classic Shopify dark theme or the sophisticated dark blue variant
+- **Shopify-Optimized**: Specially designed color schemes for Shopify development, including enhanced syntax highlighting for:
+  - Liquid templating language
+  - JavaScript and TypeScript
+  - HTML/CSS
+  - JSON configuration files
+- **Modern Aesthetics**: Clean, minimalist design inspired by Shopify's design system
+- **Developer-Friendly**: Carefully chosen colors that reduce eye strain during long coding sessions
+- **Consistent Experience**: Uniform styling across all VS Code interface elements
 
-## For more information
+## 🚀 Available Themes
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Shopify Theme Dev - Dark
 
-**Enjoy!**
+A classic dark theme with a balanced color palette featuring cool grays and subtle blue accents.
+
+### Shopify Theme Dev - Dark Blue
+
+A sophisticated variant with deep blue backgrounds and bright blue highlights, perfect for those who prefer a more vibrant coding environment.
+
+## 📦 Installation
+
+### From VS Code Marketplace
+
+1. Open VS Code
+2. Go to the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+3. Search for "Shopify Dev Theme"
+4. Click Install
+5. Select the theme from `File > Preferences > Color Theme`
+
+### Manual Installation
+
+1. Download the latest release from the [GitHub repository](https://github.com/ecmasx/Shopify-Theme-Dev)
+2. Extract the files to your VS Code extensions directory
+3. Restart VS Code
+4. Select the theme from `File > Preferences > Color Theme`
+
+## 🎯 Perfect For
+
+- **Shopify Developers**: Enhanced syntax highlighting for Liquid templates and Shopify-specific development
+- **Web Developers**: Beautiful styling for HTML, CSS, JavaScript, and TypeScript
+- **Theme Developers**: Optimized for working with Shopify theme files and configurations
+- **Anyone**: Who appreciates clean, modern design aesthetics
+
+## 🛠️ Language Support
+
+This theme provides enhanced syntax highlighting for:
+
+- **Liquid** - Shopify's templating language with special highlighting for tags, filters, and objects
+- **JavaScript/TypeScript** - Clear distinction between keywords, functions, objects, and strings
+- **HTML/CSS** - Clean tag and property highlighting
+- **JSON** - Perfect for Shopify configuration files
+- **Markdown** - For documentation and README files
+- **And many more languages supported by VS Code**
+
+## 🎨 Color Palette
+
+### Dark Theme
+
+- Background: `#263238`
+- Foreground: `#eeffff`
+- Accent: `#80cbc4`
+- Highlight: `#4fc3f7`
+
+### Dark Blue Theme
+
+- Background: `#0B101F`
+- Foreground: `#A4DFFD`
+- Accent: `#60a5fa`
+- Highlight: `#3b82f6`
+
+## 📸 Screenshots
+
+_Screenshots coming soon - showing both theme variants in action with Shopify development files_
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions for improvements or find any issues:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a detailed list of changes in each version.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 💫 Acknowledgments
+
+- Inspired by the beautiful design of [shopify.dev](https://shopify.dev)
+- Built with love for the Shopify developer community
+
+---
+
+**Enjoy coding with the Shopify Dev Theme!** 🛍️
+
+If you like this theme, please consider giving it a ⭐ on [GitHub](https://github.com/ecmasx/Shopify-Theme-Dev) and leaving a review on the VS Code Marketplace.
