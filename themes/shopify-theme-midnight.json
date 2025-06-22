@@ -6,8 +6,8 @@
     "editor.foreground": "#8A8F93",
     "editor.lineHighlightBackground": "#3A5559",
     "editor.lineHighlightBorder": "#3A5559",
-    "editorLineNumber.foreground": "#D7D7DB",
-    "editorLineNumber.activeForeground": "#D7D7DB",
+    "editorLineNumber.foreground": "#66898F",
+    "editorLineNumber.activeForeground": "#66898F",
     "sideBar.background": "#151D1E",
     "sideBarSectionHeader.background": "#151D1E",
     "activityBar.background": "#151D1E",
@@ -41,9 +41,9 @@
     "tab.unfocusedHoverBackground": "#151D1E",
     "tab.unfocusedHoverBorder": "#4A9B8E",
     "breadcrumb.background": "#151D1E",
-    "breadcrumb.foreground": "#D7D7DB",
-    "breadcrumb.focusForeground": "#D7D7DB",
-    "breadcrumb.activeSelectionForeground": "#D7D7DB",
+    "breadcrumb.foreground": "#8A8F93",
+    "breadcrumb.focusForeground": "#8A8F93",
+    "breadcrumb.activeSelectionForeground": "#8A8F93",
     "editorGroupHeader.tabsBackground": "#151D1E",
     "editorGroupHeader.tabsBorder": "#20292B",
     "editorGroupHeader.border": "#20292B",
@@ -67,9 +67,9 @@
     "statusBar.border": "#00000000",
     "sideBar.foreground": "#8A8F93",
     "tree.indentGuidesStroke": "#8A8F93",
-    "list.activeSelectionForeground": "#D7D7DB",
-    "list.hoverForeground": "#D7D7DB",
-    "list.focusForeground": "#D7D7DB",
+    "list.activeSelectionForeground": "#FFF",
+    "list.hoverForeground": "#FFF",
+    "list.focusForeground": "#FFF",
     "icon.foreground": "#8A8F93",
     "symbolIcon.colorForeground": "#8A8F93",
     "scrollbar.shadow": "#151D1E",
@@ -181,7 +181,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#79A7FF"
+        "foreground": "#9DB8F7"
       }
     },
     {
@@ -194,7 +194,18 @@
         "entity.name.function.liquid"
       ],
       "settings": {
-        "foreground": "#79A7FF"
+        "foreground": "#9DB8F7"
+      }
+    },
+    {
+      "name": "Function Parameters",
+      "scope": [
+        "variable.parameter.function",
+        "meta.function.parameters variable",
+        "meta.function-call.arguments variable"
+      ],
+      "settings": {
+        "foreground": "#08F4B9"
       }
     },
     {
@@ -205,14 +216,36 @@
         "meta.tag.liquid"
       ],
       "settings": {
-        "foreground": "#4A9B8E"
+        "foreground": "#A4DFFD"
       }
     },
     {
-      "name": "Liquid Functions",
-      "scope": ["support.function.liquid", "entity.name.function.liquid"],
+      "name": "Liquid Objects",
+      "scope": ["support.variable.liquid", "variable.other.liquid"],
       "settings": {
-        "foreground": "#6BB6A8"
+        "foreground": "#08F4B9"
+      }
+    },
+    {
+      "name": "Liquid Conditions",
+      "scope": [
+        "keyword.control.liquid",
+        "keyword.control.conditional.liquid",
+        "keyword.control.loop.liquid"
+      ],
+      "settings": {
+        "foreground": "#9DB8F7"
+      }
+    },
+    {
+      "name": "Settings Properties",
+      "scope": [
+        "variable.other.property",
+        "support.variable.property",
+        "meta.property-name"
+      ],
+      "settings": {
+        "foreground": "#A2DDFA"
       }
     },
     {
@@ -231,7 +264,7 @@
         "comment.block"
       ],
       "settings": {
-        "foreground": "#5A7D81",
+        "foreground": "#D7D7DB",
         "fontStyle": "italic"
       }
     },
@@ -242,7 +275,7 @@
         "punctuation.definition.comment.liquid"
       ],
       "settings": {
-        "foreground": "#5A7D81",
+        "foreground": "#D7D7DB",
         "fontStyle": "italic"
       }
     },
