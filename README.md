@@ -4,7 +4,6 @@ A Shopify-inspired dark theme that replicates the clean, modern design aesthetic
 
 ## 🎨 Features
 
-- **Two Beautiful Variants**: Choose between the classic Shopify dark theme or the sophisticated dark blue variant
 - **Shopify-Optimized**: Specially designed color schemes for Shopify development, including enhanced syntax highlighting for:
   - Liquid templating language
   - JavaScript and TypeScript
@@ -13,16 +12,6 @@ A Shopify-inspired dark theme that replicates the clean, modern design aesthetic
 - **Modern Aesthetics**: Clean, minimalist design inspired by Shopify's design system
 - **Developer-Friendly**: Carefully chosen colors that reduce eye strain during long coding sessions
 - **Consistent Experience**: Uniform styling across all VS Code interface elements
-
-## 🚀 Available Themes
-
-### Shopify Theme Dev - Dark
-
-A classic dark theme with a balanced color palette featuring cool grays and subtle blue accents.
-
-### Shopify Theme Dev - Dark Blue
-
-A sophisticated variant with deep blue backgrounds and bright blue highlights, perfect for those who prefer a more vibrant coding environment.
 
 ## 📦 Installation
 
@@ -36,7 +25,7 @@ A sophisticated variant with deep blue backgrounds and bright blue highlights, p
 
 ### Manual Installation
 
-1. Download the latest release from the [GitHub repository](https://github.com/ecmasx/Shopify-Theme-Dev)
+1. Download the latest release from the [GitHub repository](https://github.com/ecmasx/shopify-dev-theme)
 2. Extract the files to your VS Code extensions directory
 3. Restart VS Code
 4. Select the theme from `File > Preferences > Color Theme`
@@ -98,11 +87,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 💫 Acknowledgments
 
-- Inspired by the beautiful design of [shopify.dev](https://shopify.dev)
+- Inspired by the beautiful design of [shopify.dev](https://shopify.dev/docs/api/liquid)
 - Built with love for the Shopify developer community
 
 ---
 
 **Enjoy coding with the Shopify Dev Theme!** 🛍️
 
-If you like this theme, please consider giving it a ⭐ on [GitHub](https://github.com/ecmasx/Shopify-Theme-Dev) and leaving a review on the VS Code Marketplace.
+If you like this theme, please consider giving it a ⭐ on [GitHub](https://github.com/ecmasx/shopify-dev-theme) and leaving a review on the VS Code Marketplace.
