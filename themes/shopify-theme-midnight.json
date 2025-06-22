@@ -198,21 +198,30 @@
     },
     {
       "name": "Liquid Functions",
-      "scope": ["support.function.liquid", "entity.name.function.liquid"],
+      "scope": [
+        "support.function.liquid",
+        "entity.name.function.liquid"
+      ],
       "settings": {
         "foreground": "#93CBE5"
       }
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric.liquid", "constant.numeric"],
+      "scope": [
+        "constant.numeric.liquid",
+        "constant.numeric"
+      ],
       "settings": {
         "foreground": "#79A7FF"
       }
     },
     {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#59767A",
         "fontStyle": "italic"
@@ -231,7 +240,11 @@
     },
     {
       "name": "Classes & Types",
-      "scope": ["entity.name.class", "entity.name.type", "support.type"],
+      "scope": [
+        "entity.name.class",
+        "entity.name.type",
+        "support.type"
+      ],
       "settings": {
         "foreground": "#93CBE5"
       }
