@@ -52,7 +52,7 @@
     "editorHoverWidget.border": "#5870A4",
     "editorSuggestWidget.background": "#2D3748",
     "editorSuggestWidget.border": "#5870A4",
-    "list.hoverBackground": "#0B101F",
+    "list.hoverBackground": "#283551",
     "list.activeSelectionBackground": "#283551",
     "list.inactiveSelectionBackground": "#0B101F",
     "quickInput.background": "#0B101F",
@@ -138,7 +138,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#EFF1F1"
+        "foreground": "#A4DFFD"
       }
     },
     {
