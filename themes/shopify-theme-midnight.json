@@ -4,15 +4,15 @@
   "colors": {
     "editor.background": "#304B4F",
     "editor.foreground": "#8A8F93",
-    "editor.lineHighlightBackground": "#3A5559",
-    "editor.lineHighlightBorder": "#3A5559",
+    "editor.lineHighlightBackground": "#0A1D26",
+    "editor.lineHighlightBorder": "#0A1D26",
     "editorLineNumber.foreground": "#66898F",
     "editorLineNumber.activeForeground": "#66898F",
     "sideBar.background": "#151D1E",
     "sideBarSectionHeader.background": "#151D1E",
     "activityBar.background": "#151D1E",
-    "panel.background": "#151D1E",
-    "panelTitle.activeBorder": "#151D1E",
+    "panel.background": "#304B4F",
+    "panelTitle.activeBorder": "#304B4F",
     "panelTitle.inactiveForeground": "#8A8F93",
     "terminal.background": "#304B4F",
     "statusBar.background": "#151D1E",
@@ -33,27 +33,27 @@
     "list.focusOutline": "#59767A",
     "editorWidget.border": "#59767A",
     "tab.activeBackground": "#151D1E",
-    "tab.activeBorder": "#4A9B8E",
-    "tab.activeBorderTop": "#4A9B8E",
+    "tab.activeBorder": "#00000000",
+    "tab.activeBorderTop": "#00000000",
     "tab.inactiveBackground": "#151D1E",
     "tab.hoverBackground": "#151D1E",
-    "tab.hoverBorder": "#4A9B8E",
+    "tab.hoverBorder": "#00000000",
     "tab.unfocusedHoverBackground": "#151D1E",
-    "tab.unfocusedHoverBorder": "#4A9B8E",
+    "tab.unfocusedHoverBorder": "#00000000",
     "tab.border": "#00000000",
-    "breadcrumb.background": "#151D1E",
+    "breadcrumb.background": "#304B4F",
     "breadcrumb.foreground": "#8A8F93",
     "breadcrumb.focusForeground": "#8A8F93",
     "breadcrumb.activeSelectionForeground": "#8A8F93",
-    "editorGroupHeader.tabsBackground": "#151D1E",
+    "editorGroupHeader.tabsBackground": "#304B4F",
     "editorGroupHeader.tabsBorder": "#20292B",
     "editorGroupHeader.border": "#20292B",
-    "editorHoverWidget.background": "#151D1E",
+    "editorHoverWidget.background": "#304B4F",
     "editorHoverWidget.border": "#59767A",
     "editorSuggestWidget.background": "#20292B",
     "editorSuggestWidget.border": "#59767A",
     "list.hoverBackground": "#151D1E",
-    "list.activeSelectionBackground": "#2E3739",
+    "list.activeSelectionBackground": "#0A1D26",
     "list.inactiveSelectionBackground": "#151D1E",
     "quickInput.background": "#151D1E",
     "quickInput.foreground": "#8A8F93",
@@ -74,11 +74,11 @@
     "symbolIcon.colorForeground": "#8A8F93",
     "scrollbar.shadow": "#151D1E",
     "scrollbarSlider.background": "#20292B",
-    "scrollbarSlider.hoverBackground": "#3A5559",
+    "scrollbarSlider.hoverBackground": "#0A1D26",
     "scrollbarSlider.activeBackground": "#4A9B8E",
     "editor.findMatchBackground": "#4A9B8E",
     "editor.findMatchBorder": "#59767A",
-    "editor.findMatchHighlightBackground": "#3A5559",
+    "editor.findMatchHighlightBackground": "#0A1D26",
     "editor.findMatchHighlightBorder": "#4A9B8E",
     "editor.findRangeHighlightBackground": "#20292B",
     "searchEditor.findMatchBackground": "#4A9B8E",
@@ -105,7 +105,7 @@
         "entity.name.tag.tsx"
       ],
       "settings": {
-        "foreground": "#4A9B8E"
+        "foreground": "#EFF1F1"
       }
     },
     {
@@ -229,7 +229,10 @@
     },
     {
       "name": "Liquid Objects",
-      "scope": ["support.variable.liquid", "variable.other.liquid"],
+      "scope": [
+        "support.variable.liquid",
+        "variable.other.liquid"
+      ],
       "settings": {
         "foreground": "#08F4B9"
       }
@@ -258,7 +261,10 @@
     },
     {
       "name": "Numbers",
-      "scope": ["constant.numeric.liquid", "constant.numeric"],
+      "scope": [
+        "constant.numeric.liquid",
+        "constant.numeric"
+      ],
       "settings": {
         "foreground": "#79A7FF"
       }
@@ -289,7 +295,11 @@
     },
     {
       "name": "Classes & Types",
-      "scope": ["entity.name.class", "entity.name.type", "support.type"],
+      "scope": [
+        "entity.name.class",
+        "entity.name.type",
+        "support.type"
+      ],
       "settings": {
         "foreground": "#6BB6A8"
       }
@@ -303,6 +313,20 @@
       ],
       "settings": {
         "foreground": "#4A9B8E"
+      }
+    },
+    {
+      "name": "CSS Property Names",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css",
+        "variable.other.property.css",
+        "variable.css",
+        "variable.scss",
+        "variable.other.less"
+      ],
+      "settings": {
+        "foreground": "#EFF1F1"
       }
     },
     {
