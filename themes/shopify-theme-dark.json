@@ -3,6 +3,7 @@
   "type": "dark",
   "colors": {
     "editor.background": "#0F1B2E",
+    "editor.foreground": "#A4DFFD",
     "editor.lineHighlightBackground": "#283551",
     "editor.lineHighlightBorder": "#283551",
     "editorLineNumber.foreground": "#475B86",
@@ -23,6 +24,7 @@
     "menu.background": "#0B101F",
     "dropdown.background": "#0B101F",
     "input.background": "#1A273F",
+    "input.foreground": "#95A7D5",
     "input.border": "#5870A4",
     "inputOption.activeBorder": "#5870A4",
     "focusBorder": "#5870A4",
@@ -37,6 +39,8 @@
     "tab.border": "#00000000",
     "tab.activeBorder": "#00000000",
     "tab.activeBorderTop": "#9DB8F7",
+    "tab.hoverBorder": "#00000000",
+    "tab.unfocusedHoverBorder": "#00000000",
     "breadcrumb.background": "#0F1B2E",
     "breadcrumb.foreground": "#475B86",
     "breadcrumb.focusForeground": "#95A7D5",
@@ -51,6 +55,11 @@
     "list.hoverBackground": "#0B101F",
     "list.activeSelectionBackground": "#283551",
     "list.inactiveSelectionBackground": "#0B101F",
+    "quickInput.background": "#0B101F",
+    "quickInput.foreground": "#95A7D5",
+    "quickInputTitle.background": "#0B101F",
+    "quickInputList.focusBackground": "#283551",
+    "quickInputList.focusForeground": "#FFF",
     "panel.border": "#00000000",
     "sideBar.border": "#00000000",
     "editorGroup.border": "#00000000",
@@ -61,11 +70,6 @@
     "list.activeSelectionForeground": "#FFF",
     "list.hoverForeground": "#FFF",
     "list.focusForeground": "#FFF",
-    "quickInput.background": "#0B101F",
-    "quickInput.foreground": "#95A7D5",
-    "quickInputTitle.background": "#0B101F",
-    "quickInputList.focusBackground": "#283551",
-    "quickInputList.focusForeground": "#FFF",
     "icon.foreground": "#95A7D5",
     "symbolIcon.colorForeground": "#95A7D5",
     "scrollbar.shadow": "#0B101F",
@@ -96,8 +100,7 @@
     "editorWidget.foreground": "#95A7D5",
     "editorWidget.resizeBorder": "#5870A4",
     "pickerGroup.border": "#5870A4",
-    "pickerGroup.foreground": "#9DB8F7",
-    "quickInputTitle.background": "#1A273F"
+    "pickerGroup.foreground": "#9DB8F7"
   },
   "tokenColors": [
     {
@@ -123,13 +126,16 @@
       }
     },
     {
-      "name": "HTML Brackets",
+      "name": "HTML Brackets & Punctuation",
       "scope": [
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.definition.tag.jsx",
-        "punctuation.definition.tag.tsx"
+        "punctuation.definition.tag.tsx",
+        "punctuation.definition.block",
+        "punctuation.definition.parameters",
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#EFF1F1"
@@ -147,6 +153,17 @@
       ],
       "settings": {
         "foreground": "#A4DFFD"
+      }
+    },
+    {
+      "name": "HTML Classes",
+      "scope": [
+        "entity.other.attribute-name.class.html",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class"
+      ],
+      "settings": {
+        "foreground": "#F3F972"
       }
     },
     {
@@ -175,6 +192,59 @@
       }
     },
     {
+      "name": "Variables",
+      "scope": [
+        "variable.other",
+        "variable.parameter",
+        "variable.language",
+        "variable.other.liquid",
+        "punctuation.definition.variable.liquid"
+      ],
+      "settings": {
+        "foreground": "#08F4B9"
+      }
+    },
+    {
+      "name": "Functions & Keywords",
+      "scope": [
+        "keyword.control",
+        "keyword.control.conditional",
+        "keyword.control.loop",
+        "keyword.liquid",
+        "keyword.function",
+        "storage.type.function",
+        "keyword.other",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#9DB8F7"
+      }
+    },
+    {
+      "name": "Function Names & Calls",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "entity.name.function.js",
+        "entity.name.function.liquid"
+      ],
+      "settings": {
+        "foreground": "#A4DFFD"
+      }
+    },
+    {
+      "name": "Function Parameters",
+      "scope": [
+        "variable.parameter.function",
+        "meta.function.parameters variable",
+        "meta.function-call.arguments variable"
+      ],
+      "settings": {
+        "foreground": "#08F4B9"
+      }
+    },
+    {
       "name": "Liquid Tags",
       "scope": [
         "punctuation.definition.liquid",
@@ -183,18 +253,6 @@
       ],
       "settings": {
         "foreground": "#A4DFFD"
-      }
-    },
-    {
-      "name": "Keywords",
-      "scope": [
-        "keyword.control",
-        "keyword.control.conditional",
-        "keyword.control.loop",
-        "keyword.liquid"
-      ],
-      "settings": {
-        "foreground": "#9DB8F7"
       }
     },
     {
@@ -208,10 +266,33 @@
       "name": "Liquid Objects",
       "scope": [
         "variable.other.liquid",
-        "punctuation.definition.variable.liquid"
+        "punctuation.definition.variable.liquid",
+        "support.variable.liquid"
       ],
       "settings": {
         "foreground": "#08F4B9"
+      }
+    },
+    {
+      "name": "Liquid Conditions",
+      "scope": [
+        "keyword.control.liquid",
+        "keyword.control.conditional.liquid",
+        "keyword.control.loop.liquid"
+      ],
+      "settings": {
+        "foreground": "#9DB8F7"
+      }
+    },
+    {
+      "name": "Settings Properties",
+      "scope": [
+        "variable.other.property",
+        "support.variable.property",
+        "meta.property-name"
+      ],
+      "settings": {
+        "foreground": "#A4DFFD"
       }
     },
     {
@@ -222,15 +303,13 @@
       }
     },
     {
-      "name": "Variables and Functions",
-      "scope": ["variable.other", "entity.name.function"],
-      "settings": {
-        "foreground": "#A4DFFD"
-      }
-    },
-    {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "comment.line.double-slash",
+        "comment.block"
+      ],
       "settings": {
         "foreground": "#95A7D5",
         "fontStyle": "italic"
@@ -245,6 +324,54 @@
       "settings": {
         "foreground": "#D7D7DB",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Classes & Types",
+      "scope": ["entity.name.class", "entity.name.type", "support.type"],
+      "settings": {
+        "foreground": "#9DB8F7"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "constant.language",
+        "constant.character",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#9DB8F7"
+      }
+    },
+    {
+      "name": "CSS Property Names",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css",
+        "variable.other.property.css",
+        "variable.css",
+        "variable.scss",
+        "variable.other.less"
+      ],
+      "settings": {
+        "foreground": "#DDE2F1"
+      }
+    },
+    {
+      "name": "Parentheses and Brackets",
+      "scope": [
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end",
+        "punctuation.definition.block.js",
+        "punctuation.definition.block.jsx",
+        "punctuation.definition.block.tsx",
+        "meta.brace.round",
+        "meta.brace.square",
+        "meta.brace.curly"
+      ],
+      "settings": {
+        "foreground": "#EFF1F1"
       }
     }
   ]
