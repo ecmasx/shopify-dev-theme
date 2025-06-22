@@ -38,7 +38,7 @@
     "tab.unfocusedHoverBackground": "#0F1B2E",
     "tab.border": "#00000000",
     "tab.activeBorder": "#00000000",
-    "tab.activeBorderTop": "#00000000",
+    "tab.activeBorderTop": "#9DB8F7",
     "tab.hoverBorder": "#00000000",
     "tab.unfocusedHoverBorder": "#00000000",
     "breadcrumb.background": "#0F1B2E",
@@ -122,7 +122,7 @@
         "entity.name.tag.tsx"
       ],
       "settings": {
-        "foreground": "#DDE2F1"
+        "foreground": "#A4DFFD"
       }
     },
     {
