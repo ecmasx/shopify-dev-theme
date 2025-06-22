@@ -3,8 +3,9 @@
   "type": "dark",
   "colors": {
     "editor.background": "#364669",
-    "editor.lineHighlightBackground": "#133A49",
-    "editor.lineHighlightBorder": "#133A49",
+    "editor.lineHighlightBackground": "#303F5F",
+    "editor.lineHighlightBorder": "#303F5F",
+    "editor.selectionBackground": "#133A49",
     "editorLineNumber.foreground": "#475B86",
     "editorLineNumber.activeForeground": "#95A7D5",
     "sideBar.background": "#0F1B2E",
