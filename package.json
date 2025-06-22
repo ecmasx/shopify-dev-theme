@@ -3,7 +3,7 @@
   "displayName": "Shopify Theme",
   "description": "A Shopify-inspired dark theme that replicates the clean, modern design aesthetic of shopify.dev. Perfect for developers who love the Shopify design language.",
   "publisher": "ecmasx",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "license": "MIT",
   "icon": "images/logo.jpg",
   "engines": {
@@ -28,6 +28,11 @@
         "label": "Shopify Theme Midnight",
         "uiTheme": "vs-dark",
         "path": "./themes/shopify-theme-midnight.json"
+      },
+      {
+        "label": "Shopify Theme Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shopify-theme-purple.json"
       }
     ]
   },

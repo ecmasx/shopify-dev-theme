@@ -65,7 +65,11 @@
     "quickInputList.focusBackground": "#303F5F",
     "quickInputList.focusForeground": "#FFF",
     "icon.foreground": "#95A7D5",
-    "symbolIcon.colorForeground": "#95A7D5"
+    "symbolIcon.colorForeground": "#95A7D5",
+    "scrollbar.shadow": "#0B101F",
+    "scrollbarSlider.background": "#1A273F",
+    "scrollbarSlider.hoverBackground": "#303F5F",
+    "scrollbarSlider.activeBackground": "#5870A4"
   },
   "tokenColors": [
     {
@@ -167,10 +171,7 @@
     },
     {
       "name": "Liquid Functions",
-      "scope": [
-        "support.function.liquid",
-        "entity.name.function.liquid"
-      ],
+      "scope": ["support.function.liquid", "entity.name.function.liquid"],
       "settings": {
         "foreground": "#F3F972"
       }
@@ -187,30 +188,21 @@
     },
     {
       "name": "Numbers",
-      "scope": [
-        "constant.numeric.liquid",
-        "constant.numeric"
-      ],
+      "scope": ["constant.numeric.liquid", "constant.numeric"],
       "settings": {
         "foreground": "#62F44C"
       }
     },
     {
       "name": "Variables and Functions",
-      "scope": [
-        "variable.other",
-        "entity.name.function"
-      ],
+      "scope": ["variable.other", "entity.name.function"],
       "settings": {
         "foreground": "#A4DFFD"
       }
     },
     {
       "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#95A7D5",
         "fontStyle": "italic"
