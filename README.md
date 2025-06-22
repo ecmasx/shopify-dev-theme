@@ -4,7 +4,7 @@ A Shopify-inspired dark themes for VS Code that replicates the clean, modern des
 
 ## 🎨 Features
 
-- **Two Themes**: Shopify Theme and Shopify Theme Dark
+- **Three Themes**: Shopify Theme, Shopify Theme Dark, and Shopify Theme Midnight
 - **Shopify-Optimized**: Specially designed color schemes for Shopify development, including enhanced syntax highlighting for:
   - Liquid templating language
   - JavaScript and TypeScript

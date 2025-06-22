@@ -69,6 +69,17 @@
   },
   "tokenColors": [
     {
+      "name": "JSON Object Keys",
+      "scope": [
+        "support.type.property-name.json",
+        "meta.structure.dictionary.key.json",
+        "string.quoted.double.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#A4DFFD"
+      }
+    },
+    {
       "name": "HTML Tags",
       "scope": [
         "entity.name.tag.html",
