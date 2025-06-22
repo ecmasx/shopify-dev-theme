@@ -56,7 +56,7 @@
     "list.hoverBackground": "#303F5F",
     "list.activeSelectionBackground": "#303F5F",
     "list.inactiveSelectionBackground": "#303F5F",
-    "quickInput.background": "#303F5F",
+    "quickInput.background": "#364669",
     "quickInput.foreground": "#95A7D5",
     "quickInputTitle.background": "#303F5F",
     "quickInputList.focusBackground": "#303F5F",
