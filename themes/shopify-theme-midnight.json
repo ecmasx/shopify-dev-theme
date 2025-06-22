@@ -95,7 +95,13 @@
     "notification.warningBackground": "#304B4F",
     "notification.warningForeground": "#FE9F9B",
     "notification.errorBackground": "#304B4F",
-    "notification.errorForeground": "#FE9F9B"
+    "notification.errorForeground": "#FE9F9B",
+    "editorWidget.background": "#20292B",
+    "editorWidget.foreground": "#8A8F93",
+    "editorWidget.resizeBorder": "#59767A",
+    "pickerGroup.border": "#59767A",
+    "pickerGroup.foreground": "#4A9B8E",
+    "quickInputTitle.background": "#20292B"
   },
   "tokenColors": [
     {
