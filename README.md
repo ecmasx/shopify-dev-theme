@@ -1,4 +1,4 @@
-# Shopify Dev Theme
+# Shopify Theme
 
 A Shopify-inspired dark themes for VS Code that replicates the clean, modern design aesthetic of shopify.dev. Perfect for developers who love the Shopify design language and want to bring that elegant, professional look to their coding environment.
 
@@ -51,7 +51,9 @@ This theme provides enhanced syntax highlighting for:
 
 ## 📸 Screenshots
 
-_Screenshots coming soon - showing both theme variants in action with Shopify development files_
+![Shopify Theme Dark](./images/theme.png)
+![Comments and documentation](./images/comment.png)
+![Copilot Chat](./images/chat.png)
 
 ## 🤝 Contributing
 
