@@ -101,7 +101,29 @@
     "editorWidget.foreground": "#95A7D5",
     "editorWidget.resizeBorder": "#5870A4",
     "pickerGroup.border": "#303F5F",
-    "pickerGroup.foreground": "#9DB8F7"
+    "pickerGroup.foreground": "#9DB8F7",
+    "foreground": "#A4DFFD",
+    "selection.background": "#2A4A66",
+    "errorForeground": "#FE9F9B",
+    "widget.shadow": "#00000050",
+    "button.background": "#303F5F",
+    "button.foreground": "#95A7D5",
+    "button.hoverBackground": "#1A273F",
+    "button.secondaryBackground": "#1A273F",
+    "button.secondaryForeground": "#95A7D5",
+    "button.secondaryHoverBackground": "#303F5F",
+    "badge.background": "#5870A4",
+    "badge.foreground": "#FFF",
+    "progressBar.background": "#9DB8F7",
+    "checkbox.background": "#303F5F",
+    "checkbox.foreground": "#95A7D5",
+    "checkbox.border": "#5870A4",
+    "dropdown.listBackground": "#1A273F",
+    "activityBarBadge.background": "#9DB8F7",
+    "activityBarBadge.foreground": "#FFF",
+    "extensionButton.prominentBackground": "#303F5F",
+    "extensionButton.prominentForeground": "#95A7D5",
+    "extensionButton.prominentHoverBackground": "#1A273F"
   },
   "tokenColors": [
     {
@@ -231,7 +253,7 @@
         "entity.name.function.liquid"
       ],
       "settings": {
-        "foreground": "#9DB8F7"
+        "foreground": "#A4DFFD"
       }
     },
     {

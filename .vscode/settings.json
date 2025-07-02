@@ -1,0 +1,56 @@
+{
+  "files.associations": {
+    "*.liquid": "liquid",
+    "*.theme": "liquid"
+  },
+  "emmet.includeLanguages": {
+    "liquid": "html"
+  },
+  "liquid.format.enable": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "punctuation.definition.liquid",
+          "entity.name.tag.liquid",
+          "meta.tag.liquid"
+        ],
+        "settings": {
+          "foreground": "#9DB8F7"
+        }
+      },
+      {
+        "scope": ["support.function.liquid", "entity.name.function.liquid"],
+        "settings": {
+          "foreground": "#A4DFFD"
+        }
+      },
+      {
+        "scope": ["support.variable.liquid", "variable.other.liquid"],
+        "settings": {
+          "foreground": "#F3F972"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.liquid",
+          "keyword.control.conditional.liquid",
+          "keyword.control.loop.liquid"
+        ],
+        "settings": {
+          "foreground": "#FE9F9B"
+        }
+      },
+      {
+        "scope": [
+          "comment.block.liquid",
+          "punctuation.definition.comment.liquid"
+        ],
+        "settings": {
+          "foreground": "#95A7D5",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
+}
