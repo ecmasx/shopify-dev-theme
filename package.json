@@ -1,48 +1,48 @@
 {
-	"name": "shopify-dev-theme",
-	"displayName": "Shopify Theme",
-	"description": "A collection of Shopify-inspired dark themes including Dark, Midnight, and Purple variants. Features unified syntax highlighting with unique UI color schemes for each theme.",
-	"publisher": "ecmasx",
-	"version": "1.0.2",
-	"license": "MIT",
-	"icon": "images/logo.png",
-	"engines": {
-		"vscode": "*"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Shopify Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/shopify-theme.json"
-			},
-			{
-				"label": "Shopify Theme Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/shopify-theme-dark.json"
-			},
-			{
-				"label": "Shopify Theme Midnight",
-				"uiTheme": "vs-dark",
-				"path": "./themes/shopify-theme-midnight.json"
-			},
-			{
-				"label": "Shopify Theme Purple",
-				"uiTheme": "vs-dark",
-				"path": "./themes/shopify-theme-purple.json"
-			}
-		]
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ecmasx/shopify-dev-theme"
-	},
-	"__metadata": {
-		"installedTimestamp": 1751373590642,
-		"targetPlatform": "undefined",
-		"size": 2222644
-	}
+  "name": "shopify-dev-theme",
+  "displayName": "Shopify Theme",
+  "description": "A collection of Shopify-inspired dark themes including Dark, Midnight, and Purple variants. Features unified syntax highlighting with unique UI color schemes for each theme.",
+  "publisher": "ecmasx",
+  "version": "1.0.3",
+  "license": "MIT",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shopify Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shopify-theme.json"
+      },
+      {
+        "label": "Shopify Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shopify-theme-dark.json"
+      },
+      {
+        "label": "Shopify Theme Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shopify-theme-midnight.json"
+      },
+      {
+        "label": "Shopify Theme Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shopify-theme-purple.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecmasx/shopify-dev-theme"
+  },
+  "__metadata": {
+    "installedTimestamp": 1751373590642,
+    "targetPlatform": "undefined",
+    "size": 2222644
+  }
 }

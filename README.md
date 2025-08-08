@@ -31,4 +31,4 @@ MIT License - see [LICENSE.md](https://github.com/ecmasx/shopify-dev-theme/blob/
 
 **Enjoy coding with Shopify Dev Theme!** 🛍️
 
-⭐ [Star on GitHub](https://github.com/ecmasx/shopify-dev-theme) | 💬 [Leave a Review](https://marketplace.visualstudio.com)
+⭐ [Star on GitHub](https://github.com/ecmasx/shopify-dev-theme) | 💬 [Leave a Review](https://marketplace.visualstudio.com/items?itemName=ecmasx.shopify-dev-theme)
